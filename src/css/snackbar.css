@@ -1,0 +1,31 @@
+@import url('./styles.css');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.form input[name='delay'] {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  height: 20px;
+}
+
+.form fieldset {
+  margin-bottom: 10px;
+}
+
+button[type='submit'] {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
